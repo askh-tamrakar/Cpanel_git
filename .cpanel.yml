@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/withadae/cpanel
+    - /bin/cp index.html $DEPLOYPATH
